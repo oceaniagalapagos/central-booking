@@ -1,0 +1,25 @@
+.accordion-header {
+    margin: 0;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #212529;
+    padding: 10px 15px;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+}
+
+.accordion-body {
+    padding: 10px;
+}
+
+.accordion-collapse {
+    display: none;
+}
+
+.accordion-collapse.show {
+    display: block;
+}

@@ -1,0 +1,22 @@
+{
+    "roboto": {
+        "100_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_100_italic_54ce6b9000624318d5b146aa6ec6eb3c",
+        "200_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_200_italic_a8bceb4d2ab6b81f2d593f422e7074cd",
+        "300_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_300_italic_5462d3e30ee7175e35b87845b30e3039",
+        "italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_italic_5bb02a7a954df5e3c81968e97b0f0d73",
+        "500_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_500_italic_d2ed5865794c37a67ae24fdec95ca79e",
+        "600_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_600_italic_97d6dcc03a1445c9ecd78e728556147f",
+        "bold_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_bold_italic_149eda27e08450978fe6096414df8fa7",
+        "800_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_800_italic_6660e4fb4193028c773ebb12e5c8f747",
+        "900_italic": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_900_italic_ba1c048482e573a12b86f9a6f0f4ccf7",
+        "100": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_100_87cb472ad0dbdabc6ce2649d83d1b571",
+        "200": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_200_8f160af5dd1e2bfe5dd1c64874cedc07",
+        "300": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_300_49631d3b783cef70dd7774200c4615f8",
+        "normal": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_normal_fae9416f391e7e1c961646b4b28fd221",
+        "500": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_500_534c7bf1360f33a2100e9210d03be7fc",
+        "600": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_600_b3e9bc1ef5c32e3f14f72106785dbc36",
+        "bold": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_bold_519d19e77fef05725664835d8a653c8d",
+        "800": "D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\central-booking\\vendor\\dompdf\\dompdf\/lib\/fonts\/roboto_800_b00ce47ae680276065a1bcc7d52e4028",
+        "900": "roboto_900_0451ea2e5adc2f70e8560053d3bc87f0"
+    }
+}

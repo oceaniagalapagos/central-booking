@@ -1,0 +1,42 @@
+@import url('../colors.css');
+
+.git-tab-pane {
+    width: 100%;
+    margin: auto;
+}
+
+.tab-nav {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.tab-nav li {
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-background);
+}
+
+.tab-nav li.active {
+    color: var(--color-background);
+    background-color: var(--color-primary)
+}
+
+.tab-nav li:hover {
+    color: var(--color-background);
+    background-color: var(--color-primary)
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}

@@ -1,0 +1,8 @@
+.qr-container{
+    /* padding: 30px;
+    border-radius: 15px; */
+    background-color: #fff;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

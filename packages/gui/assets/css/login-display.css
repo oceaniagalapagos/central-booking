@@ -1,0 +1,112 @@
+.git-login-form-wrapper {
+    max-width: 400px;
+}
+
+.git-login-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.git-login-header {
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.git-form-group {
+    margin-bottom: 20px;
+}
+
+.git-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.git-form-group input[type="text"],
+.git-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.git-form-group input[type="text"]:focus,
+.git-form-group input[type="password"]:focus {
+    outline: none;
+    border-bottom-color: #3b82f6;
+}
+
+.git-checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.git-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #374151;
+    margin: 0;
+}
+
+.git-checkbox-label input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+}
+
+.git-login-btn {
+    width: 100%;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.git-login-btn:hover {
+    background: #2563eb;
+}
+
+.git-form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.git-forgot-password {
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.git-forgot-password:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .git-login-container {
+        padding: 10px;
+        min-height: 50vh;
+    }
+
+    .git-login-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    .git-login-header h2 {
+        font-size: 22px;
+    }
+}

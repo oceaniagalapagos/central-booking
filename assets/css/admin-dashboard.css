@@ -1,0 +1,69 @@
+.bubble-container {
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.git-item {
+    padding: 4px 7px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.git-row-actions td {
+    padding: 0;
+}
+
+.git-import-data-form {
+    padding: 20px 50px;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.git-import-data {
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+.git-export-data {
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+.git-export-options {
+    margin: 0 15px;
+    text-align: left;
+}
+
+.extensions_preview {
+    padding: 10px;
+    background: #f1f1f1;
+    border-left: 4px solid #0073aa;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.extensions_preview:empty {
+    display: none;
+}
+
+.extension-tag {
+    display: inline-block;
+    background: #0073aa;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 11px;
+}
+
+.extension-tag.invalid {
+    background: #dc3232;
+}

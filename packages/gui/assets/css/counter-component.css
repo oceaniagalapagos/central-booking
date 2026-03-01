@@ -1,0 +1,53 @@
+.git-counter {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.git-counter .counter-control {
+    display: inline-flex;
+    width: 30px;
+    min-width: 30px;
+    text-align: center;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.git-counter .counter-value {
+    min-width: 30px;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-variant-numeric: tabular-nums;
+}
+
+.git-counter .counter-increment,
+.git-counter .counter-decrement {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.git-counter .counter-increment::before,
+.git-counter .counter-decrement::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 16px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.git-counter .counter-increment::before {
+    left: 0;
+}
+
+.git-counter .counter-decrement::after {
+    right: 0;
+}

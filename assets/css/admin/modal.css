@@ -1,0 +1,134 @@
+/* Modal Styles for Central Booking Plugin */
+
+/* Modal Content Styling */
+.git-modal-content {
+    padding: 0;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.git-modal-header {
+    padding: 20px 20px 10px;
+    border-bottom: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.git-modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.git-modal-body {
+    padding: 20px;
+}
+
+/* Form Groups */
+.git-form-group {
+    margin-bottom: 15px;
+}
+
+.git-form-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.git-form-group input[type="checkbox"] {
+    margin: 0;
+}
+
+.git-form-group span {
+    color: #555;
+}
+
+/* Modal Actions */
+.git-modal-actions {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* Override Thickbox defaults */
+#TB_window .git-modal-content {
+    max-width: 100%;
+}
+
+#TB_ajaxContent {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .git-modal-actions {
+        flex-direction: column-reverse;
+    }
+    
+    .git-modal-actions .button,
+    .git-modal-actions .button-primary {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Loading state */
+.git-modal-loading {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.git-modal-loading::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: git-modal-spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes git-modal-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success/Error messages in modal */
+.git-modal-message {
+    padding: 12px 16px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.git-modal-message.success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.git-modal-message.error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Modal footer */
+.git-modal-footer {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+
+.git-modal-footer .button,
+.git-modal-footer .button-primary {
+    margin-left: 8px;
+}

@@ -1,0 +1,19 @@
+.bubble-container {
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.git-option-item-selected {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.git-remove-option {
+    cursor: pointer;
+}

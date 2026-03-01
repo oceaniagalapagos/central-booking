@@ -1,0 +1,32 @@
+.tablenav-pages {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.display-number {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+input.display-number {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tablenav {
+    display: flex;
+}
+
+.tablenav-alignment-right {
+    justify-content: flex-end;
+}
+
+.tablenav-alignment-left {
+    justify-content: flex-start;
+}
+
+.tablenav-alignment-center {
+    justify-content: center;
+}
